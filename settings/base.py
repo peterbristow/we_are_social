@@ -13,7 +13,8 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: Enter your own SECRET_KEY here
-SECRET_KEY = '<SECRET_KEY>'
+SECRET_KEY = 'def46n*m)k%0v2x=y#62^54_p%9iuha_hhxgf_qqc&iv2k@v9n'
+
 
 ALLOWED_HOSTS = []
 SITE_ID = 2
@@ -104,12 +105,23 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+
 STATIC_URL = '/static/'
 STATIC_ROOT = ''
+
+# Register static directory so its location is visible throughout the project.
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+# Media roots / paths
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+print(MEDIA_ROOT)
 
 TINYMCE_JS_ROOT = os.path.join(BASE_DIR, "static", "js",
                                "tinymce", "tinymce.min.js")
