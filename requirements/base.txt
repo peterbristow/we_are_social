@@ -1,6 +1,7 @@
 arrow==0.7.0
+beautifulsoup4==4.4.1
 disqus==0.0.4
-Django==1.8.9
+Django==1.9.6
 django-emoticons==1.1.2
 djangorestframework==3.3
 django-forms-bootstrap==3.0.1
@@ -11,5 +12,5 @@ six==1.10.0
 wheel==0.24.0
 django-paypal==0.2.7
 stripe
-git+https://github.com/peterbristow/reusable-blog-app.git
+git+https://github.com/peterbristow/reusable_blog_app_v1.git
 gunicorn==19.4
