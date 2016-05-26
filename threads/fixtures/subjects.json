@@ -1,0 +1,127 @@
+C:\Users\Peter\CodeInstitute\we_are_social\media
+[
+{
+    "model": "threads.subject",
+    "pk": 1,
+    "fields": {
+        "name": "Python",
+        "description": "<p>Discuss anything you want about <strong>Python</strong> here.</p>"
+    }
+},
+{
+    "model": "threads.subject",
+    "pk": 2,
+    "fields": {
+        "name": "Flask",
+        "description": "<p>Discuss anything you want about <strong>Flask</strong> here.</p>"
+    }
+},
+{
+    "model": "threads.subject",
+    "pk": 3,
+    "fields": {
+        "name": "Django",
+        "description": "<p>Discuss anything you want about <strong>Django</strong> here.</p>"
+    }
+},
+{
+    "model": "threads.thread",
+    "pk": 1,
+    "fields": {
+        "name": "Python: Any thoughts?",
+        "user": 1,
+        "subject": 1,
+        "created_at": "2016-05-24T06:15:28Z"
+    }
+},
+{
+    "model": "threads.thread",
+    "pk": 2,
+    "fields": {
+        "name": "Python IDE's - What are your experiences?",
+        "user": 1,
+        "subject": 2,
+        "created_at": "2016-05-24T12:32:10.208Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 1,
+    "fields": {
+        "thread": 1,
+        "comment": "<p>So... Python.&nbsp; What do you think about it?</p>",
+        "user": 1,
+        "created_at": "2016-05-24T06:15:28.992Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 3,
+    "fields": {
+        "thread": 1,
+        "comment": "<p>I have been learning it, and it seems quite straight forward.</p>",
+        "user": 3,
+        "created_at": "2016-05-24T06:52:12.993Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 4,
+    "fields": {
+        "thread": 1,
+        "comment": "<p>It has to be said, the logo looks very nice actualy!</p>",
+        "user": 2,
+        "created_at": "2016-05-24T06:59:25.676Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 5,
+    "fields": {
+        "thread": 1,
+        "comment": "<p>Yeah I agree the logo is nice :)&nbsp; :-)</p>",
+        "user": 3,
+        "created_at": "2016-05-24T07:31:54.228Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 6,
+    "fields": {
+        "thread": 2,
+        "comment": "<p>I have used Sublime and Pycharm when developing with Python and Flask.</p>\r\n<p>I favour Pycharm!</p>",
+        "user": 1,
+        "created_at": "2016-05-24T12:32:10.208Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 7,
+    "fields": {
+        "thread": 2,
+        "comment": "<p>Yep, I still agree with what I just posted :)</p>",
+        "user": 1,
+        "created_at": "2016-05-24T12:33:36.440Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 8,
+    "fields": {
+        "thread": 2,
+        "comment": "<p>I like sublime because it is free :)</p>",
+        "user": 2,
+        "created_at": "2016-05-24T13:16:37.500Z"
+    }
+},
+{
+    "model": "threads.posts",
+    "pk": 11,
+    "fields": {
+        "thread": 2,
+        "comment": "<p>I like PyCharm!</p>",
+        "user": 3,
+        "created_at": "2016-05-25T11:29:35.254Z"
+    }
+}
+]
