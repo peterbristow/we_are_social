@@ -121,7 +121,6 @@ STATICFILES_DIRS = (
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-print(MEDIA_ROOT)
 
 TINYMCE_JS_ROOT = os.path.join(BASE_DIR, "static", "js",
                                "tinymce", "tinymce.min.js")
