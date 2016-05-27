@@ -6,7 +6,7 @@ import dj_database_url
 DEBUG = True
 
 DATABASES = {
-    'default': dj_database_url.config(os.environ.get('CLEARDB_DATABASE_URL'))
+    'default': dj_database_url.parse(os.environ.get('CLEARDB_DATABASE_URL'))
 }
 
 # Stripe environment variables
